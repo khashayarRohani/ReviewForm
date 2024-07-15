@@ -1,0 +1,19 @@
+body {
+  font-family: monospace;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 200px;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  font-family: sans-serif, Courier, monospace;
+  font-size: 40px;
+}

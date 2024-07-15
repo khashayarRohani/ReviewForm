@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <h2>Leave a comment to improve our web</h2>
+    <div class="popup" id="divMessage"></div>
+    <form id="form">
+      <label for="un">Name</label>
+      <input
+        id="un"
+        type="text"
+        placeholder="username"
+        name="username"
+        required
+      />
+      <label for="Family">Family</label>
+      <input
+        id="Family"
+        type="text"
+        placeholder="userfamily"
+        name="userfamily"
+        required
+      />
+      <label> choose a color for background</label>
+      <input id="colorchange" type="color" name="colour" />
+      <input
+        id="subColor"
+        type="button"
+        name="backgroundColorSelector"
+        value="choose color"
+      />
+      <label>Date of Birth</label>
+      <input type="date" placeholder="date if birth" name="dob" required />
+      <input id="cancelBtn" type="submit" value="Submit" />
+      <input type="submit" value="Cancel" />
+    </form>
+  </body>
+</html>
